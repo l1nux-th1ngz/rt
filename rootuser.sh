@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt-get -y install sudo
+
 # Prompt for username if not provided
 read -p "Enter the username to add to root privileges: " username
 
